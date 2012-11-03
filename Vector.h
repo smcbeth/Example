@@ -18,7 +18,7 @@
 //
 // NOTE: Will construct new memory.
 //
-// Warning- Never maintian pointers to elements of this vector.
+// Warning- Never maintain pointers to elements of this vector.
 // Warning- The elements are not zeroed on construction, to zero the 
 //          coordinates use 'Init(~)'.
 //
@@ -187,7 +187,7 @@ Vector< T >::operator!=( Vector const& vector )  const
 }
 
 //-----------------------------------------------------------------------------
-// Use grow rules
+// Use grow rules.
 //-----------------------------------------------------------------------------
 template< class T > inline void
 Vector< T >::EnsureCapacity( uint32 capacity )
@@ -196,7 +196,7 @@ Vector< T >::EnsureCapacity( uint32 capacity )
 }
 
 //-----------------------------------------------------------------------------
-// Do not use grow rules
+// Do not use grow rules.
 //-----------------------------------------------------------------------------
 template< class T > inline void
 Vector< T >::SetCapacity( uint32 capacity )
@@ -205,7 +205,7 @@ Vector< T >::SetCapacity( uint32 capacity )
 }
 
 //-----------------------------------------------------------------------------
-// 0 == double in size
+// 0 == double in size.
 //-----------------------------------------------------------------------------
 template< class T > inline void
 Vector< T >::SetGrowAmount( uint32 growAmount )
@@ -801,7 +801,7 @@ Vector< T >::ShiftForward_( uint32 idx )
 	memmove( &GetElement( idx - 1 ), &GetElement( idx ), moveCount * sizeof( T ) );
     
 #ifdef _DEBUG
-	// initialize the 'new' memory to a debug value
+	// Initialize the 'new' memory to a debug value.
 	MemSet( &GetElement( GetCount() - 1 ), 0xDD, sizeof( T ) );
 #endif
 }
