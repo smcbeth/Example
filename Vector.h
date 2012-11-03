@@ -22,7 +22,6 @@
 // Warning- The elements are not zeroed on construction, to zero the 
 //          coordinates use 'Init(~)'.
 //
-#pragma once
 
 #include "Platform.h"
 #include "DMemory.h"
