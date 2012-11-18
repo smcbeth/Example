@@ -2,14 +2,15 @@
 
 Currently this includes:
 
+Algorithms
+-Quicksort
+
 Data Structures
-(Should run just fine)
 -Dynamic Array
 -Vector
 -Binary Heap
 
 Ogg Vorbis Sound Player
-(Dependent on code not included here)
 -Sound System: High level API.
 -Sound: Wrapper for a single sound source.
 -Mixer: Allows playback of multiple sounds from one device.
