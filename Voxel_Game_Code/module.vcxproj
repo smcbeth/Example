@@ -1,0 +1,230 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{AD6AF441-2B03-4E89-994C-F368A62885AF}</ProjectGuid>
+    <RootNamespace>module</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(SolutionDir)\bin debug\</OutDir>
+    <IncludePath>$(SolutionDir)..\newport\;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)..\newport\bin debug\;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(SolutionDir)\bin release\</OutDir>
+    <LibraryPath>$(SolutionDir)..\newport\bin release\;$(LibraryPath)</LibraryPath>
+    <IncludePath>$(SolutionDir)..\newport\;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>nstdlib.lib;newport lib.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>nstdlib.lib;newport lib.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <Profile>true</Profile>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="aimanager.h" />
+    <ClInclude Include="astar2d.h" />
+    <ClInclude Include="astar3d.h" />
+    <ClInclude Include="c_baseanimated.h" />
+    <ClInclude Include="basearea.h" />
+    <ClInclude Include="basebuilding.h" />
+    <ClInclude Include="baseroom.h" />
+    <ClInclude Include="basezone.h" />
+    <ClInclude Include="bedroom.h" />
+    <ClInclude Include="client.h" />
+    <ClInclude Include="cliententitylist.h" />
+    <ClInclude Include="clientstateconnect.h" />
+    <ClInclude Include="clientstatemainmenu.h" />
+    <ClInclude Include="clientstateplay.h" />
+    <ClInclude Include="c_baseentity.h" />
+    <ClInclude Include="iserverentity.h" />
+    <ClInclude Include="module.h" />
+    <ClInclude Include="definitions.h" />
+    <ClInclude Include="displayroom.h" />
+    <ClInclude Include="door.h" />
+    <ClInclude Include="dungeon.h" />
+    <ClInclude Include="dungeonroom.h" />
+    <ClInclude Include="dungeontower.h" />
+    <ClInclude Include="farm.h" />
+    <ClInclude Include="granary.h" />
+    <ClInclude Include="greathall.h" />
+    <ClInclude Include="hallway.h" />
+    <ClInclude Include="house.h" />
+    <ClInclude Include="iworldgenerator.h" />
+    <ClInclude Include="kitchen.h" />
+    <ClInclude Include="land.h" />
+    <ClInclude Include="library.h" />
+    <ClInclude Include="livingroom.h" />
+    <ClInclude Include="manorhouse.h" />
+    <ClInclude Include="office.h" />
+    <ClInclude Include="roadnode.h" />
+    <ClInclude Include="roadgenerator.h" />
+    <ClInclude Include="rooftop.h" />
+    <ClInclude Include="roomlinker.h" />
+    <ClInclude Include="scubegeom.h" />
+    <ClInclude Include="server.h" />
+    <ClInclude Include="serverentitylist.h" />
+    <ClInclude Include="serverstateplay.h" />
+    <ClInclude Include="shop.h" />
+    <ClInclude Include="stair.h" />
+    <ClInclude Include="stairhall.h" />
+    <ClInclude Include="storageroom.h" />
+    <ClInclude Include="s_basearmor.h" />
+    <ClInclude Include="s_basecharacter.h" />
+    <ClInclude Include="s_baseentity.h" />
+    <ClInclude Include="s_basefurniture.h" />
+    <ClInclude Include="s_baseitem.h" />
+    <ClInclude Include="s_basemobile.h" />
+    <ClInclude Include="s_baseweapon.h" />
+    <ClInclude Include="s_sector.h" />
+    <ClInclude Include="terrainhelper.h" />
+    <ClInclude Include="town.h" />
+    <ClInclude Include="towngenerator.h" />
+    <ClInclude Include="treasureroom.h" />
+    <ClInclude Include="treasuryroom.h" />
+    <ClInclude Include="window.h" />
+    <ClInclude Include="windowgenerateworld.h" />
+    <ClInclude Include="windowmainmenu.h" />
+    <ClInclude Include="windowselectworld.h" />
+    <ClInclude Include="world.h" />
+    <ClInclude Include="worldgenerator.h" />
+    <ClInclude Include="worldgeneratorsettings.h" />
+    <ClInclude Include="zoneroadgenerator.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="aimanager.cpp" />
+    <ClCompile Include="astar2d.cpp" />
+    <ClCompile Include="astar3d.cpp" />
+    <ClCompile Include="c_baseanimated.cpp" />
+    <ClCompile Include="basearea.cpp" />
+    <ClCompile Include="basebuilding.cpp" />
+    <ClCompile Include="baseroom.cpp" />
+    <ClCompile Include="basezone.cpp" />
+    <ClCompile Include="bedroom.cpp" />
+    <ClCompile Include="client.cpp" />
+    <ClCompile Include="cliententitylist.cpp" />
+    <ClCompile Include="clientstateconnect.cpp" />
+    <ClCompile Include="clientstatemainmenu.cpp" />
+    <ClCompile Include="clientstateplay.cpp" />
+    <ClCompile Include="c_baseentity.cpp" />
+    <ClCompile Include="c_chair.cpp" />
+    <ClCompile Include="c_pick.cpp" />
+    <ClCompile Include="c_player.cpp" />
+    <ClCompile Include="c_sector.cpp" />
+    <ClCompile Include="module.cpp" />
+    <ClCompile Include="displayroom.cpp" />
+    <ClCompile Include="dllmain.cpp" />
+    <ClCompile Include="door.cpp" />
+    <ClCompile Include="dungeon.cpp" />
+    <ClCompile Include="dungeonroom.cpp" />
+    <ClCompile Include="dungeontower.cpp" />
+    <ClCompile Include="farm.cpp" />
+    <ClCompile Include="globals.cpp" />
+    <ClCompile Include="granary.cpp" />
+    <ClCompile Include="greathall.cpp" />
+    <ClCompile Include="hallway.cpp" />
+    <ClCompile Include="house.cpp" />
+    <ClCompile Include="kitchen.cpp" />
+    <ClCompile Include="land.cpp" />
+    <ClCompile Include="library.cpp" />
+    <ClCompile Include="livingroom.cpp" />
+    <ClCompile Include="manorhouse.cpp" />
+    <ClCompile Include="office.cpp" />
+    <ClCompile Include="roadnode.cpp" />
+    <ClCompile Include="roadgenerator.cpp" />
+    <ClCompile Include="rooftop.cpp" />
+    <ClCompile Include="roomlinker.cpp" />
+    <ClCompile Include="scubegeom.cpp" />
+    <ClCompile Include="server.cpp" />
+    <ClCompile Include="serverentitylist.cpp" />
+    <ClCompile Include="serverstateplay.cpp" />
+    <ClCompile Include="shop.cpp" />
+    <ClCompile Include="stair.cpp" />
+    <ClCompile Include="stairhall.cpp" />
+    <ClCompile Include="storageroom.cpp" />
+    <ClCompile Include="s_basearmor.cpp" />
+    <ClCompile Include="s_basecharacter.cpp" />
+    <ClCompile Include="s_baseentity.cpp" />
+    <ClCompile Include="s_basefurniture.cpp" />
+    <ClCompile Include="s_baseitem.cpp" />
+    <ClCompile Include="s_basemobile.cpp" />
+    <ClCompile Include="s_baseweapon.cpp" />
+    <ClCompile Include="s_chair.cpp" />
+    <ClCompile Include="s_chicken.cpp" />
+    <ClCompile Include="s_pick.cpp" />
+    <ClCompile Include="s_player.cpp" />
+    <ClCompile Include="s_sector.cpp" />
+    <ClCompile Include="s_table.cpp" />
+    <ClCompile Include="town.cpp" />
+    <ClCompile Include="towngenerator.cpp" />
+    <ClCompile Include="treasureroom.cpp" />
+    <ClCompile Include="treasuryroom.cpp" />
+    <ClCompile Include="window.cpp" />
+    <ClCompile Include="windowgenerateworld.cpp" />
+    <ClCompile Include="windowmainmenu.cpp" />
+    <ClCompile Include="windowselectworld.cpp" />
+    <ClCompile Include="world.cpp" />
+    <ClCompile Include="worldgenerator.cpp" />
+    <ClCompile Include="worldgeneratorsettings.cpp" />
+    <ClCompile Include="zoneroadgenerator.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="aimanager.inl" />
+    <None Include="astar3d.inl" />
+    <None Include="basearea.inl" />
+    <None Include="terrainhelper.inl" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

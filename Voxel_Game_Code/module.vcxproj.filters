@@ -1,0 +1,500 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="s_basearmor.cpp">
+      <Filter>source\server</Filter>
+    </ClCompile>
+    <ClCompile Include="s_basecharacter.cpp">
+      <Filter>source\server</Filter>
+    </ClCompile>
+    <ClCompile Include="s_baseentity.cpp">
+      <Filter>source\server</Filter>
+    </ClCompile>
+    <ClCompile Include="s_basefurniture.cpp">
+      <Filter>source\server</Filter>
+    </ClCompile>
+    <ClCompile Include="s_baseitem.cpp">
+      <Filter>source\server</Filter>
+    </ClCompile>
+    <ClCompile Include="s_basemobile.cpp">
+      <Filter>source\server</Filter>
+    </ClCompile>
+    <ClCompile Include="s_baseweapon.cpp">
+      <Filter>source\server</Filter>
+    </ClCompile>
+    <ClCompile Include="s_chair.cpp">
+      <Filter>source\server</Filter>
+    </ClCompile>
+    <ClCompile Include="s_chicken.cpp">
+      <Filter>source\server</Filter>
+    </ClCompile>
+    <ClCompile Include="s_pick.cpp">
+      <Filter>source\server</Filter>
+    </ClCompile>
+    <ClCompile Include="s_player.cpp">
+      <Filter>source\server</Filter>
+    </ClCompile>
+    <ClCompile Include="s_sector.cpp">
+      <Filter>source\server</Filter>
+    </ClCompile>
+    <ClCompile Include="astar2d.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="astar3d.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="globals.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="module.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="scubegeom.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="windowgenerateworld.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="windowmainmenu.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="windowselectworld.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="world.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="basearea.cpp">
+      <Filter>source\world generator\town generator</Filter>
+    </ClCompile>
+    <ClCompile Include="roomlinker.cpp">
+      <Filter>source\world generator\town generator</Filter>
+    </ClCompile>
+    <ClCompile Include="towngenerator.cpp">
+      <Filter>source\world generator\town generator</Filter>
+    </ClCompile>
+    <ClCompile Include="stair.cpp">
+      <Filter>source\world generator\town generator</Filter>
+    </ClCompile>
+    <ClCompile Include="window.cpp">
+      <Filter>source\world generator\town generator</Filter>
+    </ClCompile>
+    <ClCompile Include="door.cpp">
+      <Filter>source\world generator\town generator</Filter>
+    </ClCompile>
+    <ClCompile Include="basebuilding.cpp">
+      <Filter>source\world generator\town generator\building types</Filter>
+    </ClCompile>
+    <ClCompile Include="dungeontower.cpp">
+      <Filter>source\world generator\town generator\building types</Filter>
+    </ClCompile>
+    <ClCompile Include="granary.cpp">
+      <Filter>source\world generator\town generator\building types</Filter>
+    </ClCompile>
+    <ClCompile Include="manorhouse.cpp">
+      <Filter>source\world generator\town generator\building types</Filter>
+    </ClCompile>
+    <ClCompile Include="baseroom.cpp">
+      <Filter>source\world generator\town generator\room types</Filter>
+    </ClCompile>
+    <ClCompile Include="bedroom.cpp">
+      <Filter>source\world generator\town generator\room types</Filter>
+    </ClCompile>
+    <ClCompile Include="displayroom.cpp">
+      <Filter>source\world generator\town generator\room types</Filter>
+    </ClCompile>
+    <ClCompile Include="dungeonroom.cpp">
+      <Filter>source\world generator\town generator\room types</Filter>
+    </ClCompile>
+    <ClCompile Include="greathall.cpp">
+      <Filter>source\world generator\town generator\room types</Filter>
+    </ClCompile>
+    <ClCompile Include="hallway.cpp">
+      <Filter>source\world generator\town generator\room types</Filter>
+    </ClCompile>
+    <ClCompile Include="kitchen.cpp">
+      <Filter>source\world generator\town generator\room types</Filter>
+    </ClCompile>
+    <ClCompile Include="library.cpp">
+      <Filter>source\world generator\town generator\room types</Filter>
+    </ClCompile>
+    <ClCompile Include="livingroom.cpp">
+      <Filter>source\world generator\town generator\room types</Filter>
+    </ClCompile>
+    <ClCompile Include="office.cpp">
+      <Filter>source\world generator\town generator\room types</Filter>
+    </ClCompile>
+    <ClCompile Include="treasuryroom.cpp">
+      <Filter>source\world generator\town generator\room types</Filter>
+    </ClCompile>
+    <ClCompile Include="treasureroom.cpp">
+      <Filter>source\world generator\town generator\room types</Filter>
+    </ClCompile>
+    <ClCompile Include="storageroom.cpp">
+      <Filter>source\world generator\town generator\room types</Filter>
+    </ClCompile>
+    <ClCompile Include="stairhall.cpp">
+      <Filter>source\world generator\town generator\room types</Filter>
+    </ClCompile>
+    <ClCompile Include="rooftop.cpp">
+      <Filter>source\world generator\town generator\room types</Filter>
+    </ClCompile>
+    <ClCompile Include="farm.cpp">
+      <Filter>source\world generator\town generator\zone types</Filter>
+    </ClCompile>
+    <ClCompile Include="dungeon.cpp">
+      <Filter>source\world generator\town generator\zone types</Filter>
+    </ClCompile>
+    <ClCompile Include="basezone.cpp">
+      <Filter>source\world generator\town generator\zone types</Filter>
+    </ClCompile>
+    <ClCompile Include="shop.cpp">
+      <Filter>source\world generator\town generator\building types</Filter>
+    </ClCompile>
+    <ClCompile Include="town.cpp">
+      <Filter>source\world generator\town generator\zone types</Filter>
+    </ClCompile>
+    <ClCompile Include="land.cpp">
+      <Filter>source\world generator\town generator</Filter>
+    </ClCompile>
+    <ClCompile Include="worldgeneratorsettings.cpp">
+      <Filter>source\world generator</Filter>
+    </ClCompile>
+    <ClCompile Include="worldgenerator.cpp">
+      <Filter>source\world generator</Filter>
+    </ClCompile>
+    <ClCompile Include="house.cpp">
+      <Filter>source\world generator\town generator\building types</Filter>
+    </ClCompile>
+    <ClCompile Include="roadgenerator.cpp">
+      <Filter>source\world generator</Filter>
+    </ClCompile>
+    <ClCompile Include="roadnode.cpp">
+      <Filter>source\world generator</Filter>
+    </ClCompile>
+    <ClCompile Include="s_table.cpp">
+      <Filter>source\server</Filter>
+    </ClCompile>
+    <ClCompile Include="c_player.cpp">
+      <Filter>source\client</Filter>
+    </ClCompile>
+    <ClCompile Include="c_pick.cpp">
+      <Filter>source\client</Filter>
+    </ClCompile>
+    <ClCompile Include="c_baseentity.cpp">
+      <Filter>source\client</Filter>
+    </ClCompile>
+    <ClCompile Include="c_chair.cpp">
+      <Filter>source\client</Filter>
+    </ClCompile>
+    <ClCompile Include="clientstatemainmenu.cpp">
+      <Filter>source\client</Filter>
+    </ClCompile>
+    <ClCompile Include="clientstateconnect.cpp">
+      <Filter>source\client</Filter>
+    </ClCompile>
+    <ClCompile Include="cliententitylist.cpp">
+      <Filter>source\client</Filter>
+    </ClCompile>
+    <ClCompile Include="client.cpp">
+      <Filter>source\client</Filter>
+    </ClCompile>
+    <ClCompile Include="clientstateplay.cpp">
+      <Filter>source\client</Filter>
+    </ClCompile>
+    <ClCompile Include="server.cpp">
+      <Filter>source\server</Filter>
+    </ClCompile>
+    <ClCompile Include="serverstateplay.cpp">
+      <Filter>source\server</Filter>
+    </ClCompile>
+    <ClCompile Include="serverentitylist.cpp">
+      <Filter>source\server</Filter>
+    </ClCompile>
+    <ClCompile Include="c_sector.cpp">
+      <Filter>source\client</Filter>
+    </ClCompile>
+    <ClCompile Include="zoneroadgenerator.cpp">
+      <Filter>source\world generator\town generator</Filter>
+    </ClCompile>
+    <ClCompile Include="aimanager.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="c_baseanimated.cpp">
+      <Filter>source\client</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="s_basearmor.h">
+      <Filter>header\server</Filter>
+    </ClInclude>
+    <ClInclude Include="s_basecharacter.h">
+      <Filter>header\server</Filter>
+    </ClInclude>
+    <ClInclude Include="s_baseentity.h">
+      <Filter>header\server</Filter>
+    </ClInclude>
+    <ClInclude Include="s_basefurniture.h">
+      <Filter>header\server</Filter>
+    </ClInclude>
+    <ClInclude Include="s_baseitem.h">
+      <Filter>header\server</Filter>
+    </ClInclude>
+    <ClInclude Include="s_basemobile.h">
+      <Filter>header\server</Filter>
+    </ClInclude>
+    <ClInclude Include="s_baseweapon.h">
+      <Filter>header\server</Filter>
+    </ClInclude>
+    <ClInclude Include="astar2d.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="astar3d.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="definitions.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="module.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="scubegeom.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="terrainhelper.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="windowgenerateworld.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="windowmainmenu.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="windowselectworld.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="world.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="storageroom.h">
+      <Filter>header\world generator\town generator\room types</Filter>
+    </ClInclude>
+    <ClInclude Include="basearea.h">
+      <Filter>header\world generator\town generator</Filter>
+    </ClInclude>
+    <ClInclude Include="door.h">
+      <Filter>header\world generator\town generator</Filter>
+    </ClInclude>
+    <ClInclude Include="land.h">
+      <Filter>header\world generator\town generator</Filter>
+    </ClInclude>
+    <ClInclude Include="stairhall.h">
+      <Filter>header\world generator\town generator</Filter>
+    </ClInclude>
+    <ClInclude Include="stair.h">
+      <Filter>header\world generator\town generator</Filter>
+    </ClInclude>
+    <ClInclude Include="roomlinker.h">
+      <Filter>header\world generator\town generator</Filter>
+    </ClInclude>
+    <ClInclude Include="roadgenerator.h">
+      <Filter>header\world generator</Filter>
+    </ClInclude>
+    <ClInclude Include="roadnode.h">
+      <Filter>header\world generator</Filter>
+    </ClInclude>
+    <ClInclude Include="towngenerator.h">
+      <Filter>header\world generator\town generator</Filter>
+    </ClInclude>
+    <ClInclude Include="bedroom.h">
+      <Filter>header\world generator\town generator\room types</Filter>
+    </ClInclude>
+    <ClInclude Include="baseroom.h">
+      <Filter>header\world generator\town generator\room types</Filter>
+    </ClInclude>
+    <ClInclude Include="livingroom.h">
+      <Filter>header\world generator\town generator\room types</Filter>
+    </ClInclude>
+    <ClInclude Include="library.h">
+      <Filter>header\world generator\town generator\room types</Filter>
+    </ClInclude>
+    <ClInclude Include="kitchen.h">
+      <Filter>header\world generator\town generator\room types</Filter>
+    </ClInclude>
+    <ClInclude Include="greathall.h">
+      <Filter>header\world generator\town generator\room types</Filter>
+    </ClInclude>
+    <ClInclude Include="dungeonroom.h">
+      <Filter>header\world generator\town generator\room types</Filter>
+    </ClInclude>
+    <ClInclude Include="shop.h">
+      <Filter>header\world generator\town generator\building types</Filter>
+    </ClInclude>
+    <ClInclude Include="house.h">
+      <Filter>header\world generator\town generator\building types</Filter>
+    </ClInclude>
+    <ClInclude Include="dungeontower.h">
+      <Filter>header\world generator\town generator\building types</Filter>
+    </ClInclude>
+    <ClInclude Include="basebuilding.h">
+      <Filter>header\world generator\town generator\building types</Filter>
+    </ClInclude>
+    <ClInclude Include="hallway.h">
+      <Filter>header\world generator\town generator\room types</Filter>
+    </ClInclude>
+    <ClInclude Include="displayroom.h">
+      <Filter>header\world generator\town generator\room types</Filter>
+    </ClInclude>
+    <ClInclude Include="treasureroom.h">
+      <Filter>header\world generator\town generator\room types</Filter>
+    </ClInclude>
+    <ClInclude Include="treasuryroom.h">
+      <Filter>header\world generator\town generator\room types</Filter>
+    </ClInclude>
+    <ClInclude Include="farm.h">
+      <Filter>header\world generator\town generator\zone types</Filter>
+    </ClInclude>
+    <ClInclude Include="dungeon.h">
+      <Filter>header\world generator\town generator\zone types</Filter>
+    </ClInclude>
+    <ClInclude Include="basezone.h">
+      <Filter>header\world generator\town generator\zone types</Filter>
+    </ClInclude>
+    <ClInclude Include="town.h">
+      <Filter>header\world generator\town generator\zone types</Filter>
+    </ClInclude>
+    <ClInclude Include="rooftop.h">
+      <Filter>header\world generator\town generator\building types</Filter>
+    </ClInclude>
+    <ClInclude Include="manorhouse.h">
+      <Filter>header\world generator\town generator\building types</Filter>
+    </ClInclude>
+    <ClInclude Include="worldgenerator.h">
+      <Filter>header\world generator</Filter>
+    </ClInclude>
+    <ClInclude Include="worldgeneratorsettings.h">
+      <Filter>header\world generator</Filter>
+    </ClInclude>
+    <ClInclude Include="iworldgenerator.h">
+      <Filter>header\world generator</Filter>
+    </ClInclude>
+    <ClInclude Include="office.h">
+      <Filter>header\world generator\town generator\room types</Filter>
+    </ClInclude>
+    <ClInclude Include="granary.h">
+      <Filter>header\world generator\town generator\building types</Filter>
+    </ClInclude>
+    <ClInclude Include="s_sector.h">
+      <Filter>header\server</Filter>
+    </ClInclude>
+    <ClInclude Include="server.h">
+      <Filter>header\server</Filter>
+    </ClInclude>
+    <ClInclude Include="serverstateplay.h">
+      <Filter>header\server</Filter>
+    </ClInclude>
+    <ClInclude Include="serverentitylist.h">
+      <Filter>header\server</Filter>
+    </ClInclude>
+    <ClInclude Include="client.h">
+      <Filter>header\client</Filter>
+    </ClInclude>
+    <ClInclude Include="c_baseentity.h">
+      <Filter>header\client</Filter>
+    </ClInclude>
+    <ClInclude Include="cliententitylist.h">
+      <Filter>header\client</Filter>
+    </ClInclude>
+    <ClInclude Include="clientstateplay.h">
+      <Filter>header\client</Filter>
+    </ClInclude>
+    <ClInclude Include="clientstateconnect.h">
+      <Filter>header\client</Filter>
+    </ClInclude>
+    <ClInclude Include="clientstatemainmenu.h">
+      <Filter>header\client</Filter>
+    </ClInclude>
+    <ClInclude Include="window.h">
+      <Filter>header\world generator\town generator</Filter>
+    </ClInclude>
+    <ClInclude Include="iserverentity.h">
+      <Filter>header\server</Filter>
+    </ClInclude>
+    <ClInclude Include="zoneroadgenerator.h">
+      <Filter>header\world generator\town generator</Filter>
+    </ClInclude>
+    <ClInclude Include="aimanager.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="c_baseanimated.h">
+      <Filter>header\client</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="source">
+      <UniqueIdentifier>{3dabf64a-c463-496e-b635-c77d4f000e51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\world generator">
+      <UniqueIdentifier>{40329a39-5325-45e8-afbc-1e98379cbba1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\world generator\town generator">
+      <UniqueIdentifier>{3e8e7b9f-9bbf-44da-9032-c89d29078651}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\world generator\town generator\building types">
+      <UniqueIdentifier>{aca9e1c3-2237-440f-9e58-6a4104ef878a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\world generator\town generator\zone types">
+      <UniqueIdentifier>{86612841-77b0-4643-92ae-a31aa3f741f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\world generator\town generator\room types">
+      <UniqueIdentifier>{a6d9a04f-31a5-429c-bdc7-7b9c29f48603}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\client">
+      <UniqueIdentifier>{31ae307d-bb2c-4218-b407-92a0c24b1804}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\server">
+      <UniqueIdentifier>{bf11a87e-7e08-4b9d-b9fb-6bea6dfea7fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="header">
+      <UniqueIdentifier>{8109e920-7c67-4f1c-b886-43115f686243}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="header\world generator">
+      <UniqueIdentifier>{5a3e3e61-3353-429b-a723-397d3fe9fb0e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="header\world generator\town generator">
+      <UniqueIdentifier>{ec57a11e-d09f-47af-9f89-f4fecc1a3753}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="header\world generator\town generator\building types">
+      <UniqueIdentifier>{a442f472-0174-4951-967c-3054b0058676}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="header\world generator\town generator\room types">
+      <UniqueIdentifier>{c26ce3cf-da4e-478e-8d8b-60169601dec1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="header\world generator\town generator\zone types">
+      <UniqueIdentifier>{ee95ef15-218f-490a-aed9-efb74b3d6dc3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="header\client">
+      <UniqueIdentifier>{b26f26b4-7132-4d97-9f43-d747e3fd9f05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="header\server">
+      <UniqueIdentifier>{cffd67fc-ec17-423d-9bfc-eeac8c87b736}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="terrainhelper.inl">
+      <Filter>header</Filter>
+    </None>
+    <None Include="basearea.inl">
+      <Filter>header\world generator\town generator</Filter>
+    </None>
+    <None Include="aimanager.inl">
+      <Filter>header</Filter>
+    </None>
+    <None Include="astar3d.inl">
+      <Filter>header</Filter>
+    </None>
+  </ItemGroup>
+</Project>
