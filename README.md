@@ -16,7 +16,7 @@ Ogg Vorbis Sound Player
 -Mixer: Allows playback of multiple sounds from one device.  
 -Sound Data: Handle to ogg file data.
 
-Voxel Game Code  
+Voxel Game Code   
 -Contains the game code that I worked on for my Daedal Games project.  
 -I worked on this project for over two years in my free time.  
 -This code was capable of generating terrain and buildings that could be navigated.  
